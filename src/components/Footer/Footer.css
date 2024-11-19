@@ -1,0 +1,18 @@
+footer {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0d0d0d;
+  -webkit-box-shadow: 0px 8px 30px -3px;
+  -moz-box-shadow: 0px 8px 30px -3px;
+  box-shadow: 0px 8px 30px -3px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+  color: #0def03;
+  & span {
+    color: white;
+  }
+}

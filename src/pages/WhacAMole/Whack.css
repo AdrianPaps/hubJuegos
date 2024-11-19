@@ -1,0 +1,29 @@
+#containerWhack {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-size: cover;
+}
+
+#board {
+  width: 550px;
+  height: 540px;
+  background: url("../../../public/images/soil.png");
+  background-size: cover;
+  border: 3px solid black;
+  border-radius: 25px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#board div {
+  width: 180px;
+  height: 180px;
+  background-image: url("../../../public/images/pipe.png");
+  background-size: cover;
+}
+
+#board div img {
+  width: 100px;
+  height: 100px;
+}
